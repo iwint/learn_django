@@ -1,0 +1,26 @@
+<!-- @format -->
+{%extends 'base.html'%} {%block content%}
+<div
+   class="container-fluid bg-warning gap-2 d-flex align-items-center justify-content-center"
+   style="height: 100vh">
+   <form action="result">
+      <div>
+         <label for="username">Enter Number 1:</label>
+         <input
+            type="number"
+            id="number1"
+            name="number1" />
+      </div>
+      <div>
+         <label for="username">Enter Number 2:</label>
+         <input
+            type="number"
+            id="number2"
+            name="number2" />
+      </div>
+      <div>
+         <button type="submit">Submit</button>
+      </div>
+   </form>
+</div>
+{%endblock%}
